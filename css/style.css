@@ -1,0 +1,103 @@
+/* Grundinställningar */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+}
+
+/* Layout */
+
+header,
+main,
+footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo Layout */
+
+.logo
+{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.logo img
+{
+    width: 50px;
+    height: 50px;
+}
+.logo h1
+{
+    margin: 0;
+    font-size: 1.2rem;
+    line-height: 1;
+}
+img {
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+}
+
+label
+{
+    display: block;
+    margin-bottom: 5px;
+}
+input
+{
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+button
+{
+    padding: 10px 15px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+/* Navigation */
+
+nav ul
+{
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a
+{
+    text-decoration: none;
+    color: black;
+}
+
+/* Typografi */
+
+h1,
+h2,
+h3 {
+    margin-top: 0;
+}
+
+p {
+    margin-bottom: 1rem;
+}
