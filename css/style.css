@@ -34,6 +34,12 @@ p {
     padding-bottom: 1rem;
 }
 
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
     /* Header design */
 
 .logo {
@@ -230,6 +236,25 @@ footer {
         gap: 25px;
         margin: 0;
         padding: 0;
+    }
+
+    .hero {
+        position: relative;
+    }
+
+    .hero-text {
+        position: absolute;
+        top: 50%;
+        left: 5%;
+        transform: translateY(-50%);
+        max-width: 300px;
+        color: white;
+    }
+
+    .hero-text h2,
+    .hero-text p,
+    .hero-text button {
+        text-align: left;
     }
 
     .activities-grid {
