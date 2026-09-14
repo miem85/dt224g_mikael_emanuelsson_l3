@@ -178,6 +178,7 @@ footer {
 .footer-contact h3,
 .footer-links h3 {
     margin-bottom: 0.5rem;
+    text-align: left;
 }
 
 .footer-links ul {
@@ -224,7 +225,7 @@ footer {
 
     footer {
         grid-template-columns: 2fr 1fr 1fr;
-        align-items: center;
+        align-items: start;
     }
 
     .footer-logo {
