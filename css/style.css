@@ -1,4 +1,10 @@
 /* Mobile */
+    /* Basic design */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
 header {
     display: flex;
     flex-direction: column;
@@ -63,6 +69,7 @@ img {
 }
 
 h2,
+h3,
 p {
     text-align: center;
 }
@@ -76,11 +83,54 @@ button {
     border-bottom: 1px solid lightgrey;
     padding-bottom: 1rem;
 }
+/* Aktiviteter grid och styling */
+
+.activities-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+.activity-img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
 
 .activities {
-    border: 2px solid darkgray;
-    fill: lightgrey;
-    
+    background-color: whitesmoke;
+    padding: 1rem;
+}
+
+.activities h2 {
+    text-align: center;
+}
+
+.activities-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+.activity-img {
+    background-color: lightgrey;
+    border: 1px solid grey;
+}
+
+.activity-img img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.activity-img h3 {
+    text-align: center;
+    margin 0.5rem 0;
+}
+.activity-img p {
+    text-align: left;
+    margin: 0;
+    padding: 0 1rem 1rem;
 }
 /* Desktop */
 
@@ -107,5 +157,9 @@ button {
         gap: 25px;
         margin: 0;
         padding: 0;
+    }
+
+    .activities-grid {
+        grid-template-columns: repeat(3, 1fr);
     }
 }
