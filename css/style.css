@@ -61,6 +61,21 @@ img {
     max-width: 100%;
     max-height: auto;
 }
+
+h2,
+p {
+    text-align: center;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+}
+
+.intro {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 1rem;
+}
 /* Desktop */
 
 @media (min-width: 768px) {
