@@ -275,4 +275,9 @@ footer {
         text-align: left;
         gap: 1rem;
     }
+
+    .footer-logo h2,
+    .footer-logo p {
+        text-align: left;
+    }
 }
