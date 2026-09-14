@@ -42,4 +42,4 @@ synlig fokusmarkering för länkar och knappar.
 
 ## Författare
 
-Mikael Emanuelsson, 2026.
+Mikael Emanuelsson, 2026
