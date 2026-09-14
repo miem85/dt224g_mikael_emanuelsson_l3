@@ -252,9 +252,12 @@ footer {
     }
 
     .hero-text h2,
-    .hero-text p,
-    .hero-text button {
+    .hero-text p {
         text-align: left;
+    }
+
+    .hero-text button {
+        margin: 1rem 0 0;
     }
 
     .activities-grid {
