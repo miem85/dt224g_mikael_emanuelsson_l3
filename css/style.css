@@ -221,4 +221,16 @@ footer {
     .activities-grid {
         grid-template-columns: repeat(3, 1fr);
     }
+
+    footer {
+        grid-template-columns: 2fr 1fr 1fr;
+        align-items: center;
+    }
+
+    .footer-logo {
+        grid-column: auto;
+        flex-direction: row;
+        text-align: left;
+        gap: 1rem;
+    }
 }
